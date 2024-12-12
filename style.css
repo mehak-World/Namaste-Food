@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+}
+
+
+.logo{
+display: flex;
+align-items: center
+}
+
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.nav-items ul li{
+    list-style-type: none;
+    cursor:pointer;
+}
+
+.aspect-ratio {
+    aspect-ratio: 16 / 9; /* 16:9 aspect ratio */
+    object-fit: cover; /* Ensures the image fills the area proportionally */
+  }
+
+.search{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.search input{
+    width: 400px;
+}
+  
+.restaurants{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+}
+
+.rest-card{
+    max-width: 290px;
+    background-color: rgb(243, 240, 240);
+    padding: 10px;
+    cursor:pointer;
+}
+
+.rest-image{
+    /* border-radius: 10px; */
+    margin-bottom: 10px;
+}

@@ -1,7 +1,15 @@
 import React from "react"
 import HeaderCorousal from './HeaderCorousal'
+import {useState} from "react"
 
 const Header = () => {
+    const [loginState, setLoginState] = useState(false)
+
+
+    const changeLoginState = () => {
+        setLoginState(!loginState)
+    }
+
     return (
         <>
          <div className = "header">
@@ -14,6 +22,7 @@ const Header = () => {
                     <li>Home</li>
                     <li>About</li>
                     <li>< img height = "50px" width = "50px" src = "https://static.vecteezy.com/system/resources/previews/001/504/962/non_2x/shopping-cart-icon-free-vector.jpg" alt = "cart" /></li>
+                    <button type="button" class="btn btn-warning" onClick = {changeLoginState}>{loginState ? "Logout" : "Login"}</button> 
                 </ul>
             </div>
         </div> 

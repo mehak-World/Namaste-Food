@@ -86,3 +86,13 @@ margin-bottom: 10px;
     background-color: rgb(227, 222, 222);
     border-radius: 5px;
 }
+
+.search-msg{
+    background: rgb(238, 98, 59);
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    margin: 10px 15%;
+    color: white
+}

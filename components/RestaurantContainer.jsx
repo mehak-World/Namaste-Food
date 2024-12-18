@@ -1,12 +1,11 @@
-import restaurant_data from "../utils/restaurant_data"
 import RestaurantCard from "./RestaurantCard"
 
-const Restaurants = () => {
+const Restaurants = ({restaurants}) => {
     return (
         <div className = "restaurants">
-            {restaurant_data.map((data) => {
+            {restaurants.map((data) => {
                 return (
-                        <RestaurantCard data = {data}/>
+                        <RestaurantCard key = {data.name} data = {data.card.card.info}/>
                 )
             })}
         </div>

@@ -50,6 +50,7 @@ align-items: center
   
 .restaurants{
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     gap: 40px;
 }
@@ -64,4 +65,24 @@ align-items: center
 .rest-image{
     /* border-radius: 10px; */
     margin-bottom: 10px;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.big-card{
+    width: 300px;
+    height: 250px;
+background-color: rgb(207, 202, 202);
+margin-bottom: 10px;
+}
+
+.small-card{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(227, 222, 222);
+    border-radius: 5px;
 }

@@ -64,3 +64,7 @@ DOM is basically a hierarchy of HTML Tags.
 - Comparing two objects is faster than comparing two HTML tags.
 - React is most popular UI library because of its fast DOM manipulation.
 
+# useEffect hook:
+
+If there is a local state variable in the dependency array, then the useEffect callback will be called when the value of that local state variable changes.
+

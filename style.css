@@ -16,7 +16,7 @@ body{
 }
 
 *{
-    margin-left: 5px;
+    margin-left: 4px;
 }
 
 .logo{
@@ -98,4 +98,39 @@ margin-bottom: 10px;
     text-align: center;
     margin: 10px 15%;
     color: white
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: "center";
+    position: relative;
+}
+
+.menu-header i{
+    top: 10px;
+    font-size: 20px;
+}
+
+.item-container{
+    display: flex;
+    gap: 30px;
+    max-width: 50%;
+    margin: 20px;
+    align-items: center;
+}
+
+.promoted{
+    background: black;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    top:0;
+    left:0;
+    color: white;
+}
+
+.promoted-card{
+    position: relative;
 }

@@ -68,3 +68,7 @@ DOM is basically a hierarchy of HTML Tags.
 
 If there is a local state variable in the dependency array, then the useEffect callback will be called when the value of that local state variable changes.
 
+# Higher Order Components
+
+Higher order component is a function that enhances a component. 
+In the Input, we give a component, and it returns the enhanced component.

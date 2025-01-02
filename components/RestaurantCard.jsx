@@ -45,6 +45,18 @@ const RestaurantCard = ({ data }) => {
       </div>
     );
   };
+
+  export const promotedRestCard = (RestaurantCard) => {
+      return ({data}) => {
+        return (
+          <div className = "promoted-card">
+              <label className = "promoted">Promoted</label>
+              <RestaurantCard data = {data}/>
+          </div>
+        )
+       
+      }
+  }
   
   export default RestaurantCard;
   
